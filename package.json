@@ -1,0 +1,15 @@
+{
+  "name": "floating-browser",
+  "version": "1.0.0",
+  "description": "A simple float browser to code using localhost",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.0.0"
+  }
+}
