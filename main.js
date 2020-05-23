@@ -23,7 +23,6 @@ function toggleDevTools(){
 
 function createShortcuts(){
     globalShortcut.register('CmdOrCtrl+J', toggleDevTools)
-    globalShortcut.register('f12', toggleDevTools)
 }
 
 app.whenReady().then(createWindow).then(createShortcuts)
